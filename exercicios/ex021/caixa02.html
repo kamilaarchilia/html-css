@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: burlywood;
+            margin: 0;
+        
+        }
+
+        header { 
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(159, 158, 158);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.316);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: blanchedalmond;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main { 
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+           
+        }
+        article > aside {
+            background-color: gray;
+            
+        }
+        footer { 
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu cabeçalho</h1>
+        <nav>
+
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis voluptas tempore modi excepturi voluptatem nulla placeat. Quas necessitatibus rerum sit quibusdam, dicta, maxime earum ut minus optio nemo iusto!</p>
+        </section>
+
+        <article>
+            <h2>Artigo Principal</h2>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, necessitatibus alias ullam expedita, iure aliquid voluptas doloribus nobis distinctio unde, fugiat adipisci laboriosam et nihil velit fuga porro? Debitis, commodi?</p>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </article>
+    </main>
+
+    <footer>
+        <p>Meu rodapé</p>
+    </footer>
+</body>
+</html>

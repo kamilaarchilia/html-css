@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(234, 169, 234);
+}
+h1 {
+    background-color: #8b2e6a;
+    height: 300px;
+    width: 350px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: #6740a9;
+    /* border: 10px solid #6740a9; isso é a forma abreviada usando shorthand */ 
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* padding: 10px; isso é a forma abreviada usando shorthand , porque todos os lados têm o mesmo valor, pode ser usado somente um valor */
+
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    /* margin: 20px 40px; isso é a forma abreviada usando shorthand , porque os valores são repetidos em pares (top/bottom e right/left) */
+
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: #000000;
+
+    /* outline: 5px dashed #000000; isso é a forma abreviada usando shorthand */
+}
+
+a { /*inline-level*/
+    border-width: 10px;
+    border-style: solid;
+    border-color: #640017;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}

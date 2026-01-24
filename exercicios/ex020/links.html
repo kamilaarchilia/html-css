@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+
+        /* Seletores personalizados
+            #   = id
+            .   = class
+            :   = pseudo-classe
+            ::  = pseudo-elemento
+            >   = filho direto (children)
+        
+        */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none; /* Remove underline ou seja o sublinhado */
+            font-weight: bold;
+        }
+
+        a:visited { /* Link já visitado */
+            color: darkred;
+        }
+
+        a:hover { /* Quando o mouse passa por cima do link */
+            color: orange;
+            text-decoration: underline;
+        }
+
+        a:active { /* Quando o link está sendo clicado */
+            color: green;
+        }
+
+
+        .especial { /* Classe especial para links */
+            font-size: 20px;
+            background-color: tomato;
+        }
+        a::before{
+            content: '👉 '; /* Adiciona um ícone antes do link, pseudo-elemento muda o conteúdo */
+            /*pode ser adionado qualquer caractere ou emoji */
+        }
+        a::after { /* Adiciona um ícone após o link, pseudo-elemento muda o conteúdo */
+            content: ' 🔗';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com" target="_blank" class="especial">Vá direto ao youtube</a></li>
+        <li><a href="https://www.google.com" target="_blank">Vá direto ao google</a></li>
+    </ul>
+</body>
+</html>

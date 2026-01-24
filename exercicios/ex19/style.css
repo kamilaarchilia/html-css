@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+/* 
+    tudo que em HMTL é id, em CSS vira # hashtag
+    tudo que em HTML é class, em CSS vira . ponto
+*/
+body {
+    background-color: rgb(189, 239, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(176, 79, 6);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(31, 60, 2);
+    color: white;
+}
+
+h2{
+    color: rgb(101, 84, 8);
+}
+
+.basico{
+    background-color: rgb(52, 165, 42);
+}
+
+.intermediario{
+    background-color: rgb(236, 201, 36);
+}
+
+.avancado{
+    background-color: rgb(219, 54, 54);
+    color: white;
+}

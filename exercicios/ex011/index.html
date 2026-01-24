@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinânica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplemente aumente e diminua o tamanho da janela do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemm.png" type="image/png">
+        <img src="imagens/imagemg.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Aúdio</h1>
+    <p>Vamos reproduzir uma música da maneira mais simples primeiro</p>
+    <audio src="midias/happy-mistake.mp3.mp3" controls>
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <h1>Agora essa a outra maneira de colocar aúdio em um site</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/happy-mistake.mp3.mp3" type="audio/mpeg">
+        <source src="midias/happy-mistake.ogg" type="audio/ogg">
+        <source src="midias/happy-mistake.wav" type="audio/wav">
+        Seu navegador não suporta o elemento de áudio.
+        <p>Caso não consiga ouvir o aúdio, <a href="midias/happy-mistake.mp3.mp3">baixe o arquivo</a></p>
+    </audio>
+</body>
+</html>
