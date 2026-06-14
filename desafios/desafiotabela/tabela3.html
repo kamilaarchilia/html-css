@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 600px;
+
+        }
+        caption{ 
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid black;
+            background-color: antiquewhite;
+        }
+        td, th{
+            text-align: center;
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DESAFIO TABELA DOS FILMES</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</td>
+                <td>Ana Maria</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Batman</td>
+                <td>Robin Wood</td>
+            </tr>
+            <tr>
+                <td>Claudia Melo</td>
+                <td>ET</td>
+                <td>Avatar</td>
+                <td>Crespusculo</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</td>
+                <td>Bruno Mendonça</td>
+                <td>Intocaveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>Amanhecer</td>
+                <td>Super Men</td>
+                <td>Homem Aranha</td>
+            </tr>
+            <tr>
+                <td>Fabiano Motta</td>
+                <td>Toy Story</td>
+                <td>Star Wars 5</td>
+                <td>Todo mundo em Pânico</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
